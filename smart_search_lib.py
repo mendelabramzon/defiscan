@@ -23,7 +23,7 @@ cntr = matic.eth.contract(address=add, abi=abi)
 def check_trans(block_start, block_finish):
     str1 = 'https://api.polygonscan.com/api?module=account&action=txlist&address=0xbedfB43a182083b30171408952232b253eFc2028&startblock='
     str2 = '&endblock='
-    str3 = '&sort=asc&apikey=FRPBPDXQQJVIUBX8UEBFX4BYGW7JAQA9ZW'
+    str3 = '&sort=asc&apikey='
     url = str1 + str(block_start) + str2 + str(block_finish) + str3
     print("getting url")
     x = requests.get(url).json()
