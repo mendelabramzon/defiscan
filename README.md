@@ -1,2 +1,2 @@
 # defiscan
-showroom
+defitools
